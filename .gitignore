@@ -1,0 +1,6 @@
+file-manager
+root
+.git
+.idea
+.vscode
+.env

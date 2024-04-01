@@ -1,0 +1,14 @@
+{
+  "name": "gostdoc",
+  "version": "1.0.0",
+  "description": "Репозиторий для удобного запуска и билда микрофронтенда",
+  "type": "module",
+  "scripts": {
+    "build": "node --env-file=.env ./build.js",
+    "serve": "node --env-file=.env ./build.js && pnpm --prefix ./root run serve",
+    "dev": "node --env-file=.env ./dev.js"
+  },
+  "keywords": [],
+  "author": "artemryskal",
+  "license": "ISC"
+}
