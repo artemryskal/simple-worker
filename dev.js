@@ -2,11 +2,10 @@ import { exec } from 'node:child_process'
 
 // Название директорий
 const fileManager = process.env.MANAGER_DIRECTORY
-const root = process.env.ROOT_DIRECTORY
 
 try {
   exec('npm run dev', { cwd: `./${fileManager}` })
-  exec('npm run dev', { cwd: `./${root}` })
+  exec('npm run dev', { cwd: `./root` })
 }
 catch (e) {
   console.error('Ошибка при запуске dev режима')
