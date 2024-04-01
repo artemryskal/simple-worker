@@ -1,5 +1,9 @@
 file-manager
+file-manager/*
 root
+root/*
+editor
+editor/*
 .git
 .idea
 .vscode
